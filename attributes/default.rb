@@ -3,8 +3,8 @@
 # Attributes:: default
 #
 
-include_attribute 'java'
-include_attribute 'jenkins::master'
+#include_attribute 'java'
+#include_attribute 'jenkins::master'
 
 default['jenkins']['master'].tap do |master|
   master['install_method'] = 'war'

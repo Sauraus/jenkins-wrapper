@@ -1,4 +1,4 @@
-diw-jenkins
+jenkins-wrapper
 ===========
 
-DIW Jenkins wrapper cookbook
+Jenkins wrapper cookbook

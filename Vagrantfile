@@ -8,9 +8,9 @@ Vagrant.configure("2") do |config|
 
   config.vm.box_url = "http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-6.5_chef-provisionerless.box"
 
-  config.omnibus.chef_version = :latest
+  config.omnibus.chef_version = 'latest'
 
-  config.vm.network :private_network, ip: "33.33.33.10"
+  config.vm.network :private_network, ip: "33.33.33.11"
 
   config.berkshelf.enabled = true
 

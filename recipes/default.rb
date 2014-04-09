@@ -3,5 +3,5 @@
 # Recipe:: default
 #
 
-include_recipe 'java::default'
+include_recipe 'java'
 include_recipe 'jenkins::master'
